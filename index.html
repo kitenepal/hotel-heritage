@@ -48,11 +48,11 @@
 	    <div>
 	      <div class="collapse navbar-collapse" id="myNavbar">
 	        <ul class="nav navbar-nav">
-	          <li><a href="#">Home</a></li>
-	          <li><a href="#">About</a></li>
-	          <li><a href="#">Courses</a></li>
-	          <li><a href="#">Gallery</a></li>
-	          <li><a href="#">Contact</a></li>
+	          <li class="active"><a href="#home">Home</a></li>
+	          <li><a href="#about">About</a></li>
+	          <li><a href="#courses">Courses</a></li>
+	          <li><a href="#gallery">Gallery</a></li>
+	          <li><a href="#contact">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -60,7 +60,7 @@
 	</nav>
 	<!-- /navbar -->
 	<!-- heroimg -->
-	<div class="container-fluid">
+	<div id="home" class="container-fluid">
 		<div class="row">
 			<div class="col-md-8">
 				<video controls="" width="100%" height="500px" autoplay="" loop="">
@@ -99,7 +99,7 @@
 	</div>
 	<!-- /heroimg -->
 	<!-- about us -->
-	<section class="section-padding">
+	<section id="about" class="section-padding">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -134,7 +134,7 @@
 	</section>
 	<!-- /about us -->
 	<!-- courses -->
-	<section class="courses section-padding">
+	<section id="courses" class="courses section-padding">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -500,7 +500,7 @@
 	</section>
 	<!-- /courses -->
 	<!-- gallery -->
-	<section class="section-padding">
+	<section id="gallery" class="section-padding">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -540,7 +540,7 @@
 	</section>
 	<!-- /gallery -->
 	<!-- footer -->
-	<footer class="section-padding">
+	<footer id="contact" class="section-padding">
 		<div class="container-fluid">
 			<div class="row" align="center">
 				<div class="col-md-12">
@@ -561,5 +561,6 @@
 	<!-- bootstrap js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/_nav.js"></script>
 </body>
 </html>
