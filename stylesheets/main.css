@@ -123,3 +123,41 @@ header .col-md-4:nth-child(1), header .col-md-4:nth-child(3) {
 .navbar .nav li a {
   color: #fff;
 }
+
+/* line 1, ../sass/module/_courses.scss */
+.courses {
+  background-color: #d0bbb6;
+}
+/* line 5, ../sass/module/_courses.scss */
+.courses .nav-tabs li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222;
+}
+/* line 12, ../sass/module/_courses.scss */
+.courses .tab-content {
+  background-color: #575757;
+  padding: 0 20px 0 20px;
+}
+/* line 15, ../sass/module/_courses.scss */
+.courses .tab-content .tab-pane {
+  padding: 20px 0;
+}
+/* line 19, ../sass/module/_courses.scss */
+.courses .inner-tab-content {
+  background-color: #fff;
+}
+
+/* line 24, ../sass/module/_courses.scss */
+.courses .nav-tabs > li.active > a, .courses .nav-tabs > li.active > a:focus, .courses .nav-tabs > li.active > a:hover {
+  background-color: #575757;
+  border-bottom-color: #575757;
+  color: #fff;
+}
+
+/* line 30, ../sass/module/_courses.scss */
+.courses .inner-nab-tabs > li.active > a, .courses .inner-nab-tabs > li.active > a:focus, .courses .inner-nab-tabs > li.active > a:hover {
+  background-color: #fff;
+  border-bottom-color: #fff;
+  color: #222;
+}
