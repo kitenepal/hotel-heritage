@@ -1,0 +1,125 @@
+/* line 2, ../sass/base/_base.scss */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+/* line 8, ../sass/base/_base.scss */
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer social icons */
+/* line 15, ../sass/base/_base.scss */
+.social-network a.icoFacebook {
+  background-color: #3B5998;
+  border: 1px solid #3b5998;
+}
+/* line 18, ../sass/base/_base.scss */
+.social-network a.icoFacebook:hover {
+  background-color: transparent;
+}
+/* line 21, ../sass/base/_base.scss */
+.social-network a.icoFacebook:hover i {
+  color: #3b5998;
+}
+
+/* line 26, ../sass/base/_base.scss */
+.social-network a.icoInsta {
+  background-color: #c32aa3;
+  border: 1px solid #c32aa3;
+}
+/* line 29, ../sass/base/_base.scss */
+.social-network a.icoInsta:hover {
+  background-color: transparent;
+}
+/* line 32, ../sass/base/_base.scss */
+.social-network a.icoInsta:hover i {
+  color: #c32aa3;
+}
+
+/* line 37, ../sass/base/_base.scss */
+.social-network a.icoYoutube {
+  background-color: #ff3232;
+  border: 1px solid #ff3232;
+}
+/* line 40, ../sass/base/_base.scss */
+.social-network a.icoYoutube:hover {
+  background-color: transparent;
+}
+/* line 43, ../sass/base/_base.scss */
+.social-network a.icoYoutube:hover i {
+  color: #ff3232;
+}
+
+/* line 48, ../sass/base/_base.scss */
+.social-network a.icoTrip {
+  background-color: #00af87;
+  border: 1px solid #00af87;
+}
+/* line 51, ../sass/base/_base.scss */
+.social-network a.icoTrip:hover {
+  background-color: transparent;
+}
+/* line 54, ../sass/base/_base.scss */
+.social-network a.icoTrip:hover i {
+  color: #00af87;
+}
+
+/* line 63, ../sass/base/_base.scss */
+a.socialIcon:hover, .socialHoverClass {
+  color: #44BCDD;
+}
+
+/* line 67, ../sass/base/_base.scss */
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #D3D3D3;
+}
+
+/* line 80, ../sass/base/_base.scss */
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* line 97, ../sass/base/_base.scss */
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+/* line 1, ../sass/module/_top-header.scss */
+header {
+  background-color: #f2f2f2;
+}
+/* line 3, ../sass/module/_top-header.scss */
+header .col-md-4:nth-child(1), header .col-md-4:nth-child(3) {
+  padding-top: 15px;
+}
+
+/* line 1, ../sass/module/_navbar.scss */
+.navbar {
+  border-radius: 0;
+}
+/* line 4, ../sass/module/_navbar.scss */
+.navbar .nav li a {
+  color: #fff;
+}
