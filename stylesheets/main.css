@@ -258,15 +258,24 @@ header .col-md-4:nth-child(1), header .col-md-4:nth-child(3) {
 footer {
   background-image: url("https://www.hotelheritage.com.np/images/backgrounds/bg1.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
   padding: 75px 0 !important;
   width: 100%;
 }
-/* line 6, ../sass/module/_footer.scss */
+/* line 8, ../sass/module/_footer.scss */
 footer a {
   color: #222;
 }
-/* line 8, ../sass/module/_footer.scss */
+/* line 10, ../sass/module/_footer.scss */
 footer a:hover {
   text-decoration: none;
   color: #3f145b;
+}
+
+@media only screen and (max-width: 760px) {
+  /* line 18, ../sass/module/_footer.scss */
+  footer {
+    padding: 50px 0 !important;
+  }
 }

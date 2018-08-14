@@ -1,6 +1,8 @@
 footer{
 	background-image: url("https://www.hotelheritage.com.np/images/backgrounds/bg1.jpg");
 	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center bottom;
 	padding: 75px 0 !important;
 	width: 100%;
 	a{
@@ -9,5 +11,11 @@ footer{
 			text-decoration: none;
 			color: #3f145b;
 		}
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	footer{
+		padding: 50px 0 !important;
 	}
 }
