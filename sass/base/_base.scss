@@ -138,3 +138,10 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.8s;
 }
 // social-icon css end
+
+// gallery-padding
+@media only screen and (max-width: 760px) {
+	.gallery-padding{
+		padding: $gallery-padding;
+	}
+}
