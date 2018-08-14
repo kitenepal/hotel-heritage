@@ -4,3 +4,13 @@ header{
 		padding-top: 15px;
 	}
 }
+
+@media only screen and (max-width: 760px){
+	header{
+		text-align: center !important;
+		padding-bottom: 10px;
+		.col-md-4:nth-child(3){
+			text-align: center;
+		}
+	}
+}

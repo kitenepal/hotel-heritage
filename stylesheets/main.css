@@ -152,6 +152,17 @@ header .col-md-4:nth-child(1), header .col-md-4:nth-child(3) {
   padding-top: 15px;
 }
 
+@media only screen and (max-width: 760px) {
+  /* line 9, ../sass/module/_top-header.scss */
+  header {
+    text-align: center !important;
+    padding-bottom: 10px;
+  }
+  /* line 12, ../sass/module/_top-header.scss */
+  header .col-md-4:nth-child(3) {
+    text-align: center;
+  }
+}
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   border-radius: 0;
