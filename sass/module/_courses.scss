@@ -1,11 +1,17 @@
 .courses{
-	background-color: #d0bbb6;
+	background-color: #8b5a2b;
+	.heading{
+		color: #fff;
+	}
 	.nav-tabs{
 		li{
 			a{
 			font-weight: bold;
 			text-transform: uppercase;
-			color: #222;
+			color: #fff;
+			&:hover{
+				color: #222;
+			}
 			}
 		}
 	}

@@ -18,6 +18,19 @@
 }
 
 /* line 21, ../sass/base/_base.scss */
+.primary-btn {
+  background-color: #8b5a2b;
+  color: #fff;
+  border: 1px solid #8b5a2b;
+  transition: 0.2s;
+}
+/* line 26, ../sass/base/_base.scss */
+.primary-btn:hover {
+  background-color: transparent;
+  color: #8b5a2b;
+}
+
+/* line 33, ../sass/base/_base.scss */
 ul.social-network {
   list-style: none;
   display: inline;
@@ -25,75 +38,75 @@ ul.social-network {
   padding: 0;
 }
 
-/* line 27, ../sass/base/_base.scss */
+/* line 39, ../sass/base/_base.scss */
 ul.social-network li {
   display: inline;
   margin: 0 5px;
 }
 
 /* footer social icons */
-/* line 34, ../sass/base/_base.scss */
+/* line 46, ../sass/base/_base.scss */
 .social-network a.icoFacebook {
   background-color: #3B5998;
   border: 1px solid #3b5998;
 }
-/* line 37, ../sass/base/_base.scss */
+/* line 49, ../sass/base/_base.scss */
 .social-network a.icoFacebook:hover {
   background-color: transparent;
 }
-/* line 40, ../sass/base/_base.scss */
+/* line 52, ../sass/base/_base.scss */
 .social-network a.icoFacebook:hover i {
   color: #3b5998;
 }
 
-/* line 45, ../sass/base/_base.scss */
+/* line 57, ../sass/base/_base.scss */
 .social-network a.icoInsta {
   background-color: #c32aa3;
   border: 1px solid #c32aa3;
 }
-/* line 48, ../sass/base/_base.scss */
+/* line 60, ../sass/base/_base.scss */
 .social-network a.icoInsta:hover {
   background-color: transparent;
 }
-/* line 51, ../sass/base/_base.scss */
+/* line 63, ../sass/base/_base.scss */
 .social-network a.icoInsta:hover i {
   color: #c32aa3;
 }
 
-/* line 56, ../sass/base/_base.scss */
+/* line 68, ../sass/base/_base.scss */
 .social-network a.icoYoutube {
   background-color: #ff3232;
   border: 1px solid #ff3232;
 }
-/* line 59, ../sass/base/_base.scss */
+/* line 71, ../sass/base/_base.scss */
 .social-network a.icoYoutube:hover {
   background-color: transparent;
 }
-/* line 62, ../sass/base/_base.scss */
+/* line 74, ../sass/base/_base.scss */
 .social-network a.icoYoutube:hover i {
   color: #ff3232;
 }
 
-/* line 67, ../sass/base/_base.scss */
+/* line 79, ../sass/base/_base.scss */
 .social-network a.icoTrip {
   background-color: #00af87;
   border: 1px solid #00af87;
 }
-/* line 70, ../sass/base/_base.scss */
+/* line 82, ../sass/base/_base.scss */
 .social-network a.icoTrip:hover {
   background-color: transparent;
 }
-/* line 73, ../sass/base/_base.scss */
+/* line 85, ../sass/base/_base.scss */
 .social-network a.icoTrip:hover i {
   color: #00af87;
 }
 
-/* line 82, ../sass/base/_base.scss */
+/* line 94, ../sass/base/_base.scss */
 a.socialIcon:hover, .socialHoverClass {
   color: #44BCDD;
 }
 
-/* line 86, ../sass/base/_base.scss */
+/* line 98, ../sass/base/_base.scss */
 .social-circle li a {
   display: inline-block;
   position: relative;
@@ -108,14 +121,14 @@ a.socialIcon:hover, .socialHoverClass {
   background-color: #D3D3D3;
 }
 
-/* line 99, ../sass/base/_base.scss */
+/* line 111, ../sass/base/_base.scss */
 .social-circle li i {
   margin: 0;
   line-height: 50px;
   text-align: center;
 }
 
-/* line 116, ../sass/base/_base.scss */
+/* line 128, ../sass/base/_base.scss */
 .social-circle i {
   color: #fff;
   -webkit-transition: all 0.8s;
@@ -157,36 +170,44 @@ header .col-md-4:nth-child(1), header .col-md-4:nth-child(3) {
 
 /* line 1, ../sass/module/_courses.scss */
 .courses {
-  background-color: #d0bbb6;
+  background-color: #8b5a2b;
 }
-/* line 5, ../sass/module/_courses.scss */
+/* line 3, ../sass/module/_courses.scss */
+.courses .heading {
+  color: #fff;
+}
+/* line 8, ../sass/module/_courses.scss */
 .courses .nav-tabs li a {
   font-weight: bold;
   text-transform: uppercase;
-  color: #222;
+  color: #fff;
 }
 /* line 12, ../sass/module/_courses.scss */
+.courses .nav-tabs li a:hover {
+  color: #222;
+}
+/* line 18, ../sass/module/_courses.scss */
 .courses .tab-content {
   background-color: #575757;
   padding: 0 20px 0 20px;
 }
-/* line 15, ../sass/module/_courses.scss */
+/* line 21, ../sass/module/_courses.scss */
 .courses .tab-content .tab-pane {
   padding: 20px 0;
 }
-/* line 19, ../sass/module/_courses.scss */
+/* line 25, ../sass/module/_courses.scss */
 .courses .inner-tab-content {
   background-color: #fff;
 }
 
-/* line 24, ../sass/module/_courses.scss */
+/* line 30, ../sass/module/_courses.scss */
 .courses .nav-tabs > li.active > a, .courses .nav-tabs > li.active > a:focus, .courses .nav-tabs > li.active > a:hover {
   background-color: #575757;
   border-bottom-color: #575757;
   color: #fff;
 }
 
-/* line 30, ../sass/module/_courses.scss */
+/* line 36, ../sass/module/_courses.scss */
 .courses .inner-nab-tabs > li.active > a, .courses .inner-nab-tabs > li.active > a:focus, .courses .inner-nab-tabs > li.active > a:hover {
   background-color: #fff;
   border-bottom-color: #fff;
