@@ -163,6 +163,17 @@ header .col-md-4:nth-child(1), header .col-md-4:nth-child(3) {
     text-align: center;
   }
 }
+/* line 2, ../sass/module/_herosection.scss */
+.herosection video {
+  height: 500px;
+}
+
+@media only screen and (max-width: 760px) {
+  /* line 9, ../sass/module/_herosection.scss */
+  .herosection video {
+    height: 200px;
+  }
+}
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   border-radius: 0;

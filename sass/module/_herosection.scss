@@ -1,0 +1,13 @@
+.herosection{
+	video{
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.herosection{
+		video{
+			height: 200px;
+		}
+	}
+}
