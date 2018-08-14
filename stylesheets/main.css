@@ -228,19 +228,24 @@ header .col-md-4:nth-child(1), header .col-md-4:nth-child(3) {
 .courses .tab-content .tab-pane {
   padding: 20px 0;
 }
-/* line 25, ../sass/module/_courses.scss */
+/* line 23, ../sass/module/_courses.scss */
+.courses .tab-content .tab-pane .panel-default > .panel-heading {
+  background-color: #8b5a2b;
+  color: #fff;
+}
+/* line 29, ../sass/module/_courses.scss */
 .courses .inner-tab-content {
   background-color: #fff;
 }
 
-/* line 30, ../sass/module/_courses.scss */
+/* line 34, ../sass/module/_courses.scss */
 .courses .nav-tabs > li.active > a, .courses .nav-tabs > li.active > a:focus, .courses .nav-tabs > li.active > a:hover {
   background-color: #575757;
   border-bottom-color: #575757;
   color: #fff;
 }
 
-/* line 36, ../sass/module/_courses.scss */
+/* line 40, ../sass/module/_courses.scss */
 .courses .inner-nab-tabs > li.active > a, .courses .inner-nab-tabs > li.active > a:focus, .courses .inner-nab-tabs > li.active > a:hover {
   background-color: #fff;
   border-bottom-color: #fff;
